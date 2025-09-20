@@ -51,3 +51,4 @@ model = Sequential([
 model.compile(optimizer=Adam(), loss='categorical_crossentropy', metrics=['accuracy'])
 model.fit(train_data, validation_data=test_data, epochs=25)
 model.save('model/facefeel_model.keras')
+#ai project
